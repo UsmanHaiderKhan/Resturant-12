@@ -1,0 +1,65 @@
+/*================================= 
+		Nav Section Styling
+=================================*/
+nav{
+	nav.sticky {
+		transition: all 0.4s;
+	}
+	nav.sticky.is-sticky {
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 0;
+		z-index: 1000;
+		width: 100%;
+		padding: 5px 10px;
+		background-color: $btn-bg-color;
+	}
+	.navbar-dark .navbar-nav .nav-link {
+		color: rgb(255, 255, 255);
+	}
+	.navbar {
+		padding: 20px 10px 0 10px;
+	}
+	.navbar-toggler {
+		border: 2px solid $light-color;
+	}
+	.active .nav-link {
+		font-size: 18px;
+		font-weight: 400;
+		color: $secondary-color !important;
+		font-family: $secondary-font-regular;
+		transition: all 0.4s ease-in-out;
+		position: relative;
+		&::after{
+			content: url('../images/fork.png');
+			position: absolute;
+			bottom: -19px;
+			left: 50%;
+			right: 0;
+			transform: translate(-50%, 0);
+			color: $light-color;
+		}
+	}
+	.navbar-nav .nav-link {
+		font-size: 18px;
+		color: $secondary-color;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-family: $secondary-font-regular;
+		padding-right: 1.2rem !important;
+		padding-left: 1.2rem !important;
+		transition: all 0.5s ease;
+	
+		&:hover {
+			color: $secondary-color !important;
+		}
+	}
+	.navbar-toggler {
+		border: 2px solid $dark-color;
+	}
+	.display-not {
+		display: none;
+	}
+	
+}
