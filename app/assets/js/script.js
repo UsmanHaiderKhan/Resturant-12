@@ -136,51 +136,51 @@ $(function () {
 
 /*===================== Owl Carousel Slider ======================*/
 
-$(function () {
-	var owl = $("#owl-one");
-	owl.owlCarousel({
-		autoplay: false,
-		// center: true,
-		loop: true,
-		mouseDrag: true,
-		margin: 30,
-		dots: true,
-		nav: true,
-		slideBy: 4,
-		items: 4,
-		animateIn: "fadeIn",
-		animateOut: "fadeOut",
-		responsiveClass: true,
-		responsive: {
-			0: {
-				items: 1
-			},
-			600: {
-				items: 1,
-				autoplay: true
-			},
-			768: {
-				items: 2
-			},
-			830: {
-				items: 3
-			},
-			1000: {
-				item: 3
-			},
-			1365: {
-				item: 4
-			}
-		}
-	});
-	$(".right-arrow").click(function () {
-		owl.trigger("next.owl.carousel", [1000]);
-	});
+// $(function () {
+// 	var owl = $("#owl-one");
+// 	owl.owlCarousel({
+// 		autoplay: false,
+// 		// center: true,
+// 		loop: true,
+// 		mouseDrag: true,
+// 		margin: 30,
+// 		dots: true,
+// 		nav: true,
+// 		slideBy: 4,
+// 		items: 4,
+// 		animateIn: "fadeIn",
+// 		animateOut: "fadeOut",
+// 		responsiveClass: true,
+// 		responsive: {
+// 			0: {
+// 				items: 1
+// 			},
+// 			600: {
+// 				items: 1,
+// 				autoplay: true
+// 			},
+// 			768: {
+// 				items: 2
+// 			},
+// 			830: {
+// 				items: 3
+// 			},
+// 			1000: {
+// 				item: 3
+// 			},
+// 			1365: {
+// 				item: 4
+// 			}
+// 		}
+// 	});
+// 	$(".right-arrow").click(function () {
+// 		owl.trigger("next.owl.carousel", [1000]);
+// 	});
 
-	$(".left-arrow").click(function () {
-		owl.trigger("prev.owl.carousel", [1000]);
-	});
-});
+// 	$(".left-arrow").click(function () {
+// 		owl.trigger("prev.owl.carousel", [1000]);
+// 	});
+// });
 $(function () {
 	$('.owl-carousel').owlCarousel({
 		loop: true,
@@ -221,6 +221,7 @@ $(function () {
 		owls.trigger("prev.owl.carousel", [1000]);
 	});
 });
+
 /*===================== Another Load More Script ======================*/
 
 $(function () {
