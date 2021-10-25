@@ -9,7 +9,7 @@ body {
   font-size: 16px;
   color: #ffffff;
   text-transform: uppercase;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Quicksand";
   background-color: #ff8a4a;
   border-radius: 0px;
   font-weight: 400;
@@ -32,7 +32,7 @@ body {
   font-size: 2.5rem;
   color: #ff8a4a;
   text-transform: capitalize;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Quicksand";
   text-align: center;
   font-weight: 700; }
   @media (max-width: 1200px) {
@@ -52,7 +52,7 @@ hr {
   letter-spacing: 0.4px;
   line-height: 25px;
   font-weight: 600;
-  font-family: "Josefin Sans", sans-serif; }
+  font-family: "Josefin Sans"; }
 
 .comments-space {
   margin-bottom: 0;
@@ -567,7 +567,7 @@ nav .active .nav-link {
   font-size: 18px;
   font-weight: 400;
   color: #ff8a4a !important;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Josefin Sans";
   transition: all 0.4s ease-in-out;
   position: relative; }
 
@@ -576,7 +576,7 @@ nav .navbar-nav .nav-link {
   color: #ffffff;
   text-transform: uppercase;
   font-weight: 400;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Josefin Sans";
   padding-right: 1.2rem !important;
   padding-left: 1.2rem !important;
   transition: all 0.5s ease; }
@@ -596,7 +596,7 @@ Home Section Styling
   font-size: 2.5rem;
   color: #ffffff;
   text-transform: capitalize;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Quicksand";
   font-weight: 600; }
   @media (max-width: 1200px) {
     #home .main-banner-text {
@@ -606,14 +606,13 @@ Home Section Styling
   font-size: 18px;
   color: #ffffff;
   font-weight: 400;
-  font-family: "Josefin Sans", sans-serif; }
+  font-family: "Josefin Sans"; }
 
 #home .landing-image {
   width: 100%;
   background-size: cover !important;
   background-position: center !important;
-  background-repeat: no-repeat !important;
-  background-image: url("../images/hero/landing.png"); }
+  background-repeat: no-repeat !important; }
   #home .landing-image .content-setting {
     padding: 252px 0 193px 0; }
   #home .landing-image .btn-reservation {
@@ -659,3 +658,37 @@ Home Section Styling
   background-position: center;
   background-repeat: no-repeat;
   background-image: url("../images/story/story-background.png"); }
+  #story .container-fluid {
+    padding-right: 60px;
+    padding-left: 60px; }
+  #story .story-heading {
+    font-size: rfs(40px);
+    color: #ff8a4a;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: "Quicksand"; }
+  #story .story-desc {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: .5;
+    line-height: 1.6;
+    color: #383838;
+    font-family: "Josefin Sans"; }
+  #story .caption-text {
+    font-size: 25px;
+    color: #ff8a4a;
+    font-weight: 500;
+    font-style: italic;
+    text-align: center;
+    font-family: "Josefin Sans"; }
+
+#dishes .dish-heading {
+  font-size: 40px;
+  color: #383838;
+  text-transform: capitalize;
+  font-family: "Quicksand"; }
+
+#dishes .dish-description {
+  font-size: 18px;
+  color: #ffffff;
+  font-family: "Josefin Sans"; }
