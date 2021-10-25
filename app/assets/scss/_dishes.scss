@@ -1,0 +1,14 @@
+#dishes{
+
+    .dish-heading{
+        font-size: 40px;
+        color: $secondary-color;
+        text-transform: capitalize;
+        font-family: $primary-font;
+    }
+    .dish-description{
+        font-size: 18px;
+        color: $light-color;
+        font-family: $secondary-font;
+    }
+}
