@@ -31,15 +31,6 @@ nav{
 		font-family: $secondary-font-regular;
 		transition: all 0.4s ease-in-out;
 		position: relative;
-		&::after{
-			content: url('../images/fork.png');
-			position: absolute;
-			bottom: -19px;
-			left: 50%;
-			right: 0;
-			transform: translate(-50%, 0);
-			color: $light-color;
-		}
 	}
 	.navbar-nav .nav-link {
 		font-size: 18px;
