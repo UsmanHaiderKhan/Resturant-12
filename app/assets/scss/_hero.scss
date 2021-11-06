@@ -3,12 +3,6 @@ Home Section Styling
 =================================*/
 
 #home {
-	width: 100%;
-	// margin-top: -6.2em;
-	background-size: cover !important;
-	background-position: center !important;
-	background-repeat: no-repeat !important;
-
 	.main-banner-text {
 		@include rfs(50px);
 		color: $primary-color;
@@ -19,28 +13,36 @@ Home Section Styling
 		font-size: 18px;
 		color: $light-color;
 		font-weight: 400;
-		font-family: $secondary-font;
+		font-family: $secondary-font-medium;
 	}
-
+    .landing-image{
+		width: 100%;
+		background-size: cover !important;
+		background-position: center !important;
+		background-repeat: no-repeat !important;
+		background-image: url('../images/hero/landing.png');
+	
 	.content-setting {
 		padding: 165px 0 160px 0;
 	}
-	.btn-blog {
+	.btn-reservation {
 		@extend %btn-shared;
-		background-color: $btn-bg-color;
+		background-color: transparent;
 		transition: all 0.5s ease-in-out;
 		&:hover {
 			box-shadow: 2px 3px 8px 1px rgba(0, 0, 0, 0.3);
 		}
 	}
-	.btn-contact {
+	.btn-dish {
 		@extend %btn-shared;
-		background-color: $primary-color;
+		background-color: transparent;
 		transition: all 0.5s ease-in-out;
+		border: 2px solid $light-color;
 		&:hover {
 			box-shadow: 2px 3px 8px 1px rgba(0, 0, 0, 0.3);
 		}
 	}
+}
 
 	// CSS Animation Slider
 	// .owl-item.active {

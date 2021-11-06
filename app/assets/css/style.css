@@ -15,6 +15,20 @@ body {
   font-family: "rubik-regular";
   src: url("../font-family/Rubik-Regular.ttf"); }
 
+#home .landing-image .btn-reservation, #home .landing-image .btn-dish {
+  width: 146px;
+  height: 46px;
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 44px;
+  text-transform: uppercase;
+  font-family: "rubik-medium";
+  background-color: #ff8a4a;
+  border-radius: 0px;
+  font-weight: 400;
+  border: 2px solid #ff8a4a;
+  box-shadow: 1px 1.732px 3px 0px rgba(0, 0, 0, 0.75); }
+
 .btn:focus {
   box-shadow: none; }
 
@@ -23,7 +37,7 @@ body {
 =================================*/
 .section-heading {
   font-size: 2.5rem;
-  color: #161c29;
+  color: #ff8a4a;
   text-transform: capitalize;
   font-family: "Abel";
   text-align: center; }
@@ -551,22 +565,14 @@ nav .navbar-toggler {
 nav .active .nav-link {
   font-size: 18px;
   font-weight: 400;
-  color: #d89b64 !important;
+  color: #383838 !important;
   font-family: "rubik-regular";
   transition: all 0.4s ease-in-out;
   position: relative; }
-  nav .active .nav-link::after {
-    content: url("../images/fork.png");
-    position: absolute;
-    bottom: -19px;
-    left: 50%;
-    right: 0;
-    transform: translate(-50%, 0);
-    color: #ffffff; }
 
 nav .navbar-nav .nav-link {
   font-size: 18px;
-  color: #d89b64;
+  color: #383838;
   text-transform: uppercase;
   font-weight: 400;
   font-family: "rubik-regular";
@@ -574,10 +580,48 @@ nav .navbar-nav .nav-link {
   padding-left: 1.2rem !important;
   transition: all 0.5s ease; }
   nav .navbar-nav .nav-link:hover {
-    color: #d89b64 !important; }
+    color: #383838 !important; }
 
 nav .navbar-toggler {
   border: 2px solid #141414; }
 
 nav .display-not {
   display: none; }
+
+/*================================= 
+Home Section Styling
+=================================*/
+#home .main-banner-text {
+  font-size: 3.125rem;
+  color: #ff8a4a;
+  text-transform: capitalize;
+  font-family: "Abel"; }
+  @media (max-width: 1200px) {
+    #home .main-banner-text {
+      font-size: calc(1.4375rem + 2.25vw) ; } }
+
+#home .main-banner-desc {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "rubik-medium"; }
+
+#home .landing-image {
+  width: 100%;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-image: url("../images/hero/landing.png"); }
+  #home .landing-image .content-setting {
+    padding: 165px 0 160px 0; }
+  #home .landing-image .btn-reservation {
+    background-color: transparent;
+    transition: all 0.5s ease-in-out; }
+    #home .landing-image .btn-reservation:hover {
+      box-shadow: 2px 3px 8px 1px rgba(0, 0, 0, 0.3); }
+  #home .landing-image .btn-dish {
+    background-color: transparent;
+    transition: all 0.5s ease-in-out;
+    border: 2px solid #ffffff; }
+    #home .landing-image .btn-dish:hover {
+      box-shadow: 2px 3px 8px 1px rgba(0, 0, 0, 0.3); }
