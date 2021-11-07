@@ -182,13 +182,12 @@ $(function () {
 	});
 });
 $(function () {
-	var owls = $("#owl-carousel");
-	owls.owlCarousel({
+	$('.owl-carousel').owlCarousel({
 		loop: true,
 		autoplay: false,
 		margin: 0,
 		dots: false,
-		nav: false,
+		nav: true,
 		slideBy: 1,
 		item: 1,
 		smartSpeed: 1000,
