@@ -535,6 +535,12 @@ button:focus {
 /*================================= 
 		Nav Section Styling
 =================================*/
+.navbar-dark .navbar-nav .nav-link {
+  color: white; }
+
+.color {
+  background-color: rgba(0, 0, 0, 0.5); }
+
 nav nav.sticky {
   transition: all 0.4s; }
 
@@ -546,10 +552,10 @@ nav nav.sticky.is-sticky {
   z-index: 1000;
   width: 100%;
   padding: 5px 10px;
-  background-color: #ff9a66; }
+  background-color: rgba(0, 0, 0, 0.9); }
 
 nav .navbar-dark .navbar-nav .nav-link {
-  color: white; }
+  color: #ffffff; }
 
 nav .navbar {
   padding: 20px 10px 0 10px; }
@@ -560,14 +566,14 @@ nav .navbar-toggler {
 nav .active .nav-link {
   font-size: 18px;
   font-weight: 400;
-  color: #383838 !important;
+  color: #ff8a4a !important;
   font-family: "Josefin Sans", sans-serif;
   transition: all 0.4s ease-in-out;
   position: relative; }
 
 nav .navbar-nav .nav-link {
   font-size: 18px;
-  color: #383838;
+  color: #ffffff;
   text-transform: uppercase;
   font-weight: 400;
   font-family: "Josefin Sans", sans-serif;
@@ -575,7 +581,7 @@ nav .navbar-nav .nav-link {
   padding-left: 1.2rem !important;
   transition: all 0.5s ease; }
   nav .navbar-nav .nav-link:hover {
-    color: #383838 !important; }
+    color: #ff8a4a !important; }
 
 nav .navbar-toggler {
   border: 2px solid #141414; }
@@ -609,7 +615,7 @@ Home Section Styling
   background-repeat: no-repeat !important;
   background-image: url("../images/hero/landing.png"); }
   #home .landing-image .content-setting {
-    padding: 165px 0 160px 0; }
+    padding: 252px 0 193px 0; }
   #home .landing-image .btn-reservation {
     background-color: transparent;
     transition: all 0.5s ease-in-out; }
@@ -622,6 +628,30 @@ Home Section Styling
     color: #ff8a4a; }
     #home .landing-image .btn-dish:hover {
       box-shadow: 2px 3px 8px 1px rgba(0, 0, 0, 0.3); }
+
+#home .owl-carousel .owl-nav button.owl-next,
+#home .owl-carousel .owl-nav button.owl-prev,
+#home .owl-carousel button.owl-dot {
+  margin-top: 100%;
+  border: none;
+  display: block;
+  padding: 0 !important; }
+
+#home .right-arrow {
+  position: absolute;
+  right: 4%;
+  z-index: 22;
+  top: 50%;
+  transform: translate(0, -50%);
+  cursor: pointer; }
+
+#home .left-arrow {
+  position: absolute;
+  left: 4%;
+  top: 50%;
+  transform: translate(0, -50%);
+  z-index: 22;
+  cursor: pointer; }
 
 #story {
   padding: 60px 0;

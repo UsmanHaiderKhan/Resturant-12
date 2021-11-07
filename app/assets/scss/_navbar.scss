@@ -1,6 +1,12 @@
 /*================================= 
 		Nav Section Styling
 =================================*/
+.navbar-dark .navbar-nav .nav-link {
+	color: rgb(255,255,255); 
+}
+.color{
+	background-color: rgba(0,0,0, .5);
+}
 nav{
 	nav.sticky {
 		transition: all 0.4s;
@@ -13,10 +19,10 @@ nav{
 		z-index: 1000;
 		width: 100%;
 		padding: 5px 10px;
-		background-color: $btn-bg-color;
+		background-color: rgba(0,0,0, .9);	
 	}
 	.navbar-dark .navbar-nav .nav-link {
-		color: rgb(255, 255, 255);
+		color: $light-color;
 	}
 	.navbar {
 		padding: 20px 10px 0 10px;
@@ -27,14 +33,14 @@ nav{
 	.active .nav-link {
 		font-size: 18px;
 		font-weight: 400;
-		color: $secondary-color !important;
+		color: $primary-color !important;
 		font-family: $secondary-font;
 		transition: all 0.4s ease-in-out;
 		position: relative;
 	}
 	.navbar-nav .nav-link {
 		font-size: 18px;
-		color: $secondary-color;
+		color: $light-color;
 		text-transform: uppercase;
 		font-weight: 400;
 		font-family: $secondary-font;
@@ -43,7 +49,7 @@ nav{
 		transition: all 0.5s ease;
 	
 		&:hover {
-			color: $secondary-color !important;
+			color: $primary-color !important;
 		}
 	}
 	.navbar-toggler {
