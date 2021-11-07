@@ -28,7 +28,7 @@ nav{
 		font-size: 18px;
 		font-weight: 400;
 		color: $secondary-color !important;
-		font-family: $secondary-font-regular;
+		font-family: $secondary-font;
 		transition: all 0.4s ease-in-out;
 		position: relative;
 	}
@@ -37,7 +37,7 @@ nav{
 		color: $secondary-color;
 		text-transform: uppercase;
 		font-weight: 400;
-		font-family: $secondary-font-regular;
+		font-family: $secondary-font;
 		padding-right: 1.2rem !important;
 		padding-left: 1.2rem !important;
 		transition: all 0.5s ease;

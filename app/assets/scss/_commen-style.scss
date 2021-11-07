@@ -1,13 +1,19 @@
 /*=================================
         Commonly Used Styling
 =================================*/
-
+.primary-color{
+	color: $primary-color;
+}
+.secondary-color{
+	color: $secondary-color;
+}
 .section-heading {
 	@include rfs(40px);
 	color: $primary-color;
 	text-transform: capitalize;
 	font-family: $primary-font;
 	text-align: center;
+	font-weight: 700;
 }
 hr {
 	width: 90%;
@@ -21,7 +27,8 @@ hr {
 	color: $light-color;
 	letter-spacing: 0.4px;
 	line-height: 25px;
-	font-family: $secondary-font-regular;
+	font-weight: 600;
+	font-family: $secondary-font;
 }
 .comments-space {
 	margin-bottom: 0;

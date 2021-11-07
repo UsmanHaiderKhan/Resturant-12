@@ -4,16 +4,17 @@ Home Section Styling
 
 #home {
 	.main-banner-text {
-		@include rfs(50px);
-		color: $primary-color;
+		@include rfs(40px);
+		color: $light-color;
 		text-transform: capitalize;
 		font-family: $primary-font;
+		font-weight: 600;
 	}
 	.main-banner-desc {
 		font-size: 18px;
 		color: $light-color;
 		font-weight: 400;
-		font-family: $secondary-font-medium;
+		font-family: $secondary-font;
 	}
     .landing-image{
 		width: 100%;
@@ -38,6 +39,7 @@ Home Section Styling
 		background-color: transparent;
 		transition: all 0.5s ease-in-out;
 		border: 2px solid $light-color;
+		color: $primary-color;
 		&:hover {
 			box-shadow: 2px 3px 8px 1px rgba(0, 0, 0, 0.3);
 		}

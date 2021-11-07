@@ -11,22 +11,10 @@ $light-color: #ffffff;
 $btn-bg-color: #ff9a66;
 $dark-color: #141414;
 
-@font-face {
-	font-family: "Abel";
-	src: url("../font-family/AbrilDisplay-Bold.otf");
-}
-@font-face {
-	font-family: "rubik-medium";
-	src: url("../font-family/Rubik-Medium.ttf");
-}
-@font-face {
-	font-family: "rubik-regular";
-	src: url("../font-family/Rubik-Regular.ttf");
-}
 
-$primary-font: "Abel";
-$secondary-font-medium: "rubik-medium";
-$secondary-font-regular: "rubik-regular";
+
+$primary-font: 'Quicksand', sans-serif;;
+$secondary-font: 'Josefin Sans', sans-serif;;
 
 //@mixin
 @mixin reset-link {
@@ -44,12 +32,11 @@ $secondary-font-regular: "rubik-regular";
 
 %btn-shared {
 	width: 146px;
-	height: 46px;
-	font-size: 18px;
+	height: 50px;
+	font-size: 16px;
 	color: $light-color;
-	line-height: 44px;
 	text-transform: uppercase;
-	font-family: $secondary-font-medium;
+	font-family: $primary-font;
 	background-color: $primary-color;
 	border-radius: 0px;
 	font-weight: 400;
