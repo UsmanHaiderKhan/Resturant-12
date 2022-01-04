@@ -226,7 +226,7 @@ $(function () {
 
 $(function () {
 	$(".none-display")
-		.slice(0, 12)
+		.slice(0, 9)
 		.show();
 	$("#load-more").on("click", function (e) {
 		e.preventDefault();
