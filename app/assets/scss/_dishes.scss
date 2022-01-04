@@ -67,5 +67,21 @@
     h2,p{
         margin: 0;
     }
+    
+  .btn-load-more{
+    width: 198px;
+    height: 60px;
+    font-size: 19px;
+    border-radius: 0;
+    color: $light-color;
+    text-transform: capitalize;
+    font-family: $secondary-font;
+    border: 1px solid $light-color;
+    background-color: transparent;
+    box-shadow: 2.5px 4.33px 5px 0px rgba(216, 155, 100, 0.5)
+  }  
       
+}
+.none-display{
+  display: none;
 }

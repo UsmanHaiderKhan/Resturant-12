@@ -739,3 +739,17 @@ Home Section Styling
       opacity: 1; }
   #dishes h2, #dishes p {
     margin: 0; }
+  #dishes .btn-load-more {
+    width: 198px;
+    height: 60px;
+    font-size: 19px;
+    border-radius: 0;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-family: "Josefin Sans";
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    box-shadow: 2.5px 4.33px 5px 0px rgba(216, 155, 100, 0.5); }
+
+.none-display {
+  display: none; }
