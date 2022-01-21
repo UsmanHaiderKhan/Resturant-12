@@ -753,3 +753,69 @@ Home Section Styling
 
 .none-display {
   display: none; }
+
+#gallery {
+  width: 100%;
+  height: auto;
+  background-color: #000; }
+  #gallery .gallery-heading {
+    font-size: 40px;
+    color: #ff8a4a;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: "Quicksand"; }
+  #gallery .gallery-description {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: "Josefin Sans"; }
+  #gallery .border-wrapper {
+    border: 10px solid #ffe1d0;
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.45); }
+
+#chef {
+  width: 100%;
+  height: auto;
+  padding: 60px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../images/chef/bg.png"); }
+  #chef .gallery-heading {
+    font-size: 40px;
+    color: #ff8a4a;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: "Quicksand"; }
+  #chef .gallery-description {
+    font-size: 18px;
+    color: #383838;
+    font-family: "Josefin Sans"; }
+  #chef .main-wrapper {
+    border: 7px solid #383838;
+    transition: ease-in-out .5s;
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.45); }
+    #chef .main-wrapper .heading-bg {
+      padding: 19px 0px 15px;
+      text-align: center;
+      transition: ease-in-out .5s;
+      background-color: #ff8a4a; }
+      #chef .main-wrapper .heading-bg .icon-none {
+        display: none; }
+      #chef .main-wrapper .heading-bg .chef-name {
+        font-size: 20px;
+        margin: 0;
+        color: #383838;
+        text-transform: uppercase;
+        font-family: "Josefin Sans"; }
+    #chef .main-wrapper:hover {
+      border: 7px solid #ff8a4a; }
+      #chef .main-wrapper:hover .heading-bg {
+        background-color: #383838; }
+        #chef .main-wrapper:hover .heading-bg .chef-name {
+          color: #ff8a4a; }
+        #chef .main-wrapper:hover .heading-bg .icon-none {
+          display: block; }
+  #chef .icon-size {
+    width: 11px;
+    height: 16px;
+    margin: 6px; }
