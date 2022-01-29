@@ -41,6 +41,7 @@
         }
         &:hover{
             border: 7px solid $primary-color;
+            transform: translateY(30px);
             .heading-bg{
                 background-color: $secondary-color;
                 .chef-name{
@@ -58,6 +59,28 @@
         height: 16px;
         margin: 6px;
     }
+    .owl-item{
+        margin-bottom: 35px;
+    }
+    .owl-dots{
+        text-align: center;
+        margin-top: 20px;
+        .active{
+            background-color: $primary-color !important;
+        }
+    }
+     .owl-carousel .owl-nav button.owl-next,
+     .owl-carousel .owl-nav button.owl-prev, 
+     .owl-carousel button.owl-dot{
+         width: 80px;
+         height: 12px;
+         margin: 12px;
+         background-color: $secondary-color;
+         border: 3px solid $secondary-color;
+        &:hover{
+         background-color: $primary-color;
+        }
+     }
 }
 
   

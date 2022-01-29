@@ -808,7 +808,8 @@ Home Section Styling
         text-transform: uppercase;
         font-family: "Josefin Sans"; }
     #chef .main-wrapper:hover {
-      border: 7px solid #ff8a4a; }
+      border: 7px solid #ff8a4a;
+      transform: translateY(30px); }
       #chef .main-wrapper:hover .heading-bg {
         background-color: #383838; }
         #chef .main-wrapper:hover .heading-bg .chef-name {
@@ -819,3 +820,40 @@ Home Section Styling
     width: 11px;
     height: 16px;
     margin: 6px; }
+  #chef .owl-item {
+    margin-bottom: 35px; }
+  #chef .owl-dots {
+    text-align: center;
+    margin-top: 20px; }
+    #chef .owl-dots .active {
+      background-color: #ff8a4a !important; }
+  #chef .owl-carousel .owl-nav button.owl-next,
+  #chef .owl-carousel .owl-nav button.owl-prev,
+  #chef .owl-carousel button.owl-dot {
+    width: 80px;
+    height: 12px;
+    margin: 12px;
+    background-color: #383838;
+    border: 3px solid #383838; }
+    #chef .owl-carousel .owl-nav button.owl-next:hover,
+    #chef .owl-carousel .owl-nav button.owl-prev:hover,
+    #chef .owl-carousel button.owl-dot:hover {
+      background-color: #ff8a4a; }
+
+#contact {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../images/contact/bg.png"); }
+  #contact .contact-heading {
+    font-size: 40px;
+    color: #ff8a4a;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: "Quicksand"; }
+  #contact .contact-description {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: "Josefin Sans"; }
