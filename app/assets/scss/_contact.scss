@@ -1,0 +1,20 @@
+#contact{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../images/contact/bg.png');
+    .contact-heading{
+        font-size: 40px;
+        color: $primary-color;
+        text-transform: capitalize;
+        font-weight: 600;
+        font-family: $primary-font;
+    }
+    .contact-description{
+        font-size: 18px;
+        color: $light-color;
+        font-family: $secondary-font;
+    }
+}
