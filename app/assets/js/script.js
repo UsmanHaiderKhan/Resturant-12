@@ -145,7 +145,7 @@ $(function () {
 		mouseDrag: true,
 		margin: 30,
 		dots: true,
-		nav: true,
+		nav: false,
 		slideBy: 4,
 		items: 4,
 		animateIn: "fadeIn",
