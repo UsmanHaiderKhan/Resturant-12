@@ -17,4 +17,44 @@
         color: $light-color;
         font-family: $secondary-font;
     }
+    .form-control-filed{
+        width: 100%;
+        height: 45px;
+        border: none;
+        padding: 12px;
+        font-weight: 400;
+        background-color: rgba(47, 46, 45, 0.702);
+        box-shadow: 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.75);
+    }
+    .text-area-control{
+        width: 100%;
+        border: none;
+        padding: 12px;
+        font-weight: 400;
+        background-color: rgba(47, 46, 45, 0.702);
+        box-shadow: 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.75);
+    }
+    ::placeholder{
+        font-size: 16px;
+        color: $light-color;
+        font-weight: light;
+        text-transform: uppercase;
+        font-family: $primary-font;
+    }
+    .btn-position{
+        position: absolute;
+        bottom: 35px;
+        right: 30px;
+    }
+    .btn-book-table{
+        width: 200px;
+        height: 54px;
+        font-size: 16px;
+        border-radius: 0px;
+        color: $light-color;
+        text-transform: uppercase;
+        font-family: $primary-font;
+        border: 3px solid $black-color;
+        background-color: $primary-color;
+    }
 }
