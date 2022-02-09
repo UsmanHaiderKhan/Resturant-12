@@ -631,7 +631,6 @@ Home Section Styling
 #home .owl-carousel .owl-nav button.owl-next,
 #home .owl-carousel .owl-nav button.owl-prev,
 #home .owl-carousel button.owl-dot {
-  margin-top: 100%;
   border: none;
   display: block;
   padding: 0 !important; }
