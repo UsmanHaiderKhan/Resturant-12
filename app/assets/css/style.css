@@ -628,6 +628,9 @@ Home Section Styling
     #home .landing-image .btn-dish:hover {
       box-shadow: 2px 3px 8px 1px rgba(0, 0, 0, 0.3); }
 
+#home .owl-nav {
+  display: none; }
+
 #home .owl-carousel .owl-nav button.owl-next,
 #home .owl-carousel .owl-nav button.owl-prev,
 #home .owl-carousel button.owl-dot {
@@ -901,3 +904,25 @@ footer {
     color: #ffffff;
     font-family: "Quicksand";
     text-transform: uppercase; }
+
+/*================================= 
+Media Queries Styling
+=================================*/
+@media only screen and (max-width: 1024px) {
+  .navbar-nav .nav-link {
+    font-size: 15px; }
+  .nav-item {
+    padding: 0px; }
+  #home .content-setting {
+    padding: 132px 0 140px 0; } }
+
+@media only screen and (max-width: 993px) {
+  .media-nav-center {
+    text-align: center; }
+  .nav-item {
+    padding: 5px; } }
+
+/*==================== Media Query For Land Scape Mode =====================*/
+@media only screen and (max-width: 830px) and (orientation: landscape) {
+  #home .content-setting {
+    padding: 132px 0 140px 0; } }
